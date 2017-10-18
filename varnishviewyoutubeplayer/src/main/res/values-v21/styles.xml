@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="YouTubePlayerTheme" parent="Theme.AppCompat">
+        <item name="android:popupWindowStyle">@style/YouTubePlayerControlsWindowStyle</item>
+        <item name="android:imageButtonStyle">@style/YouTubePlayerControlsButtonStyle</item>
+        <item name="android:textViewStyle">@style/YouTubePlayerControlsTextStyle</item>
+        <item name="android:seekBarStyle">@style/YouTubePlayerControlsSeekBarStyle</item>
+    </style>
+
+    <!-- Style for scrubber on Lollipop and newer -->
+    <style name="YouTubePlayerControlsSeekBarStyle" parent="Widget.AppCompat.SeekBar">
+        <!-- Following 3 properties set the tint on SeekBar for Lollipop and newer devices -->
+        <item name="android:thumbTint">@android:color/white</item>
+        <item name="android:progressTint">@android:color/white</item>
+        <item name="android:progressBackgroundTint">@android:color/white</item>
+    </style>
+</resources>

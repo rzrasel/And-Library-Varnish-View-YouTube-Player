@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AndLibraryVarnishViewYouTubePlayer</string>
+    <string name="error_player">An error occurred while initializing the player %1s. Please try again.</string>
+    <string name="google_and_youtube_api_key">com.google.android.youtube.apikey</string>
+</resources>
