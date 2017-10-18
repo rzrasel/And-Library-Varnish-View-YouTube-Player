@@ -4,7 +4,7 @@ And Library Varnish View YouTube Player
 ### GIT Comment
 ```git_comment_add_origin_and_fetch
 git init
-git remote add origin https://github.com/rzrasel/And-Library-Spinal-Navigation-Drawer.git
+git remote add origin https://github.com/rzrasel/And-Library-Varnish-View-YouTube-Player.git
 git remote -v
 git fetch && git checkout And-Library-Varnish-View-YouTube-Player
 git fetch && git checkout master
